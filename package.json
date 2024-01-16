@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bs58check": "^3.0.1",
     "coininfo": "^5.2.1",
     "coinkey": "^3.0.0"
   }
