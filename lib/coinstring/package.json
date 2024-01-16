@@ -23,7 +23,7 @@
   },
   "repository": {
 	  "url": "git@github.com:mad-bastards/addr-gen-js.git",
-    "directory": "lib/coinkey",
+    "directory": "lib/coinstring",
     "type": "git"
   }
 }
