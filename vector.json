@@ -1,398 +1,451 @@
-[
-  {
-    "key": "038109007313a5807b2eccc082c8c3fbb988a973cacf1a7df9ce725c31b14776",
-    "pub": "0202a406624211f2abbdc68da3df929f938c3399dd79fac1b51b0e4ad1d26a47aa",
-    "addrs": {
-      "BTC": {
-        "coin": "bitcoin",
-        "pubver": 0,
-        "priver": 128,
-        "addr": "1PRTTaJesdNovgne6Ehcdu1fpEdX7913CK",
-        "sym": "BTC",
-        "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-      },
-      "BTG": {
-        "coin": "bitcoin gold",
-        "pubver": 38,
-        "priver": 128,
-        "addr": "GgGNshdbrUz71A5w2BMj4fMZjQRND7t19o",
-        "sym": "BTG",
-        "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-      },
-      "BCH": {
-        "coin": "bitcoincash",
-        "pubver": 0,
-        "priver": 128,
-        "addr": "1PRTTaJesdNovgne6Ehcdu1fpEdX7913CK",
-        "sym": "BCH",
-        "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-      },
-      "BLK": {
-        "coin": "blackcoin",
-        "pubver": 25,
-        "priver": 153,
-        "addr": "BSsY5Hkrd8xiNXGohj2am2pLYr56vinGp4",
-        "sym": "BLK",
-        "wif": "PdqHYFa6adkz6QgMzWJ9CYKjjoD7ywnSHq6bA1Y5i1LuXM7TKb3G"
-      },
-      "RYO": {
-        "coin": "c0ban",
-        "pubver": 18,
-        "priver": 136,
-        "addr": "8dWKBXfqesiaeVJCXnhMN9uq9KGVuc9QrC",
-        "sym": "RYO",
-        "wif": "M7yZpWSoc2BeXcTJbDaxfaiTWQo2nqB5XKWNeHeUMsXojin1JXUX"
-      },
-      "CITY": {
-        "coin": "citycoin",
-        "pubver": 28,
-        "priver": 237,
-        "addr": "CetM2ceikgMLpph4mz2YDQdhSMqw6bo4Cw",
-        "sym": "CITY",
-        "wif": "c4YFZoqfHYiXwsntSsTA5AGeeJ5v76ZVxwRYAAe2xCehB9qzKQyM"
-      },
-      "DASH": {
-        "coin": "dash",
-        "pubver": 76,
-        "priver": 204,
-        "addr": "Xy7JHpxYqLbQ5dPDx81qVRhTeaDD9Y4fTb",
-        "sym": "DASH",
-        "wif": "XBQShUwyWUUznoMYCNRgoR9aRxTPZHcWbMsEhBCukQnCtEK5XVHm"
-      },
-      "DCR": {
-        "coin": "decred",
-        "pubver": 1855,
-        "priver": 8926,
-        "addr": "DsoPMx1E5wGx6yiRLVUZpAUv2KyZKutu7NT",
-        "sym": "DCR",
-        "wif": "ZqqnzPSAfEyUL7bN9jXm8YrLun58apVbXK5amMScb2M1xBsw3oZQ"
-      },
-      "DNR": {
-        "coin": "denarius",
-        "pubver": 30,
-        "priver": 158,
-        "addr": "DTZYzqFJB3H6TgyEpphBBfBGhNMpWH5SH2",
-        "sym": "DNR",
-        "wif": "QNjSQ4NbTQLfxzkCktGcBQoAyyDPA39573DExHGZAQ7Tw15ddv1d"
-      },
-      "DGB": {
-        "coin": "digibyte",
-        "pubver": 30,
-        "priver": 128,
-        "addr": "DTZYzqFJB3H6TgyEpphBBfBGhNMpWH5SH2",
-        "sym": "DGB",
-        "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-      },
-      "DOGE": {
-        "coin": "dogecoin",
-        "pubver": 30,
-        "priver": 158,
-        "addr": "DTZYzqFJB3H6TgyEpphBBfBGhNMpWH5SH2",
-        "sym": "DOGE",
-        "wif": "QNjSQ4NbTQLfxzkCktGcBQoAyyDPA39573DExHGZAQ7Tw15ddv1d"
-      },
-      "GRS": {
-        "coin": "groestlcoin",
-        "pubver": 36,
-        "priver": 128,
-        "addr": "FsbAuV32S84MNHokyLh66QozUPuUj3LYHP",
-        "sym": "GRS",
-        "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-      },
-      "LTC": {
-        "coin": "litecoin",
-        "pubver": 48,
-        "priver": 176,
-        "addr": "LheQincUxHcsBVUoGNguuv5S2SzoFQkc3j",
-        "sym": "LTC",
-        "wif": "T3AngxrncAq9WJz2iFNgWYVwTnq8Ba2A2zRb2TWG11gGzxfDFy9i"
-      },
-      "MONA": {
-        "coin": "monacoin",
-        "pubver": 50,
-        "priver": 176,
-        "addr": "MWKch1D4NeYcpMkyKDMYtAd1HTWgeCjrBa",
-        "sym": "MONA",
-        "wif": "T3AngxrncAq9WJz2iFNgWYVwTnq8Ba2A2zRb2TWG11gGzxfDFy9i"
-      },
-      "NMC": {
-        "coin": "namecoin",
-        "pubver": 52,
-        "priver": 180,
-        "addr": "NJzpfDodo1UNTE39N42BrRAaYU2a6T67ka",
-        "sym": "NMC",
-        "wif": "TdVJycJPJnVhQP36vYxFhEstTXdjXF74gkv7GGtdxvh88HYmgTjY"
-      },
-      "NBT": {
-        "coin": "nubits",
-        "pubver": 25,
-        "priver": 150,
-        "addr": "BSsY5Hkrd8xiNXGohj2am2pLYr56vinGp4",
-        "sym": "NBT",
-        "wif": "PC6PpmVQ4B1aAre4LH7Tp23GzVcAUgyFoWECUeVoEa5mgMXc8wMJ"
-      },
-      "PPC": {
-        "coin": "peercoin",
-        "pubver": 55,
-        "priver": 183,
-        "addr": "PX1dcYhVvYrzuXTQSK29JnywRyoQJJoS4J",
-        "sym": "PPC",
-        "wif": "U5ECh6P5qFF7Kw5Qan8w5mAMCqEh2VvFB5nVwdvvSMxFyH42FJ9a"
-      },
-      "QTUM": {
-        "coin": "qtum",
-        "pubver": 58,
-        "priver": 128,
-        "addr": "Qj2SZsbN46FdMpsfWa26mAoJKVaEPuhNXw",
-        "sym": "QTUM",
-        "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-      },
-      "RVN": {
-        "coin": "ravencoin",
-        "pubver": 60,
-        "priver": 128,
-        "addr": "RXheY6BwUTBNzh9qZQgjjRLsaW67r8wUCo",
-        "sym": "RVN",
-        "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-      },
-      "RDD": {
-        "coin": "reddcoin",
-        "pubver": 61,
-        "priver": 189,
-        "addr": "Rw3FXCVEBdeFp8Hvaq24DYcfD1M4YnqiaB",
-        "sym": "RDD",
-        "wif": "Uxhz84YUtAjwB3A1uEWHrojGhSSc31Yc9jXHJN1VPEUXfGFewYvU"
-      },
-      "VTC": {
-        "coin": "vertcoin",
-        "pubver": 71,
-        "priver": 128,
-        "addr": "VxRHNHU7HSH1zTgnq2MF4oLXW3vVaefQxp",
-        "sym": "VTC",
-        "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-      },
-      "VIA": {
-        "coin": "viacoin",
-        "pubver": 71,
-        "priver": 199,
-        "addr": "VxRHNHU7HSH1zTgnq2MF4oLXW3vVaefQxp",
-        "sym": "VIA",
-        "wif": "WSWHqg9UdhuJvDHhRzTDpYg9BnT8PCFsn9katuUSJ21eUaEYRhmk"
-      },
-      "x42": {
-        "coin": "x42",
-        "pubver": 75,
-        "priver": 203,
-        "addr": "XZmhJifG8A8XGCF8vhgX1JRg24xGSBtBap",
-        "sym": "x42",
-        "wif": "X2pp8Kb5LKZrpHLmeJ2o1F46BXFjisLnRvF78irpFw2Vbu2d2uQK"
-      },
-      "ZEC": {
-        "coin": "zcash",
-        "pubver": 7352,
-        "priver": 128,
-        "addr": "t1gJ4TuinqxAQXKqY2fWjmi7b4tpbyPDwz8",
-        "sym": "ZEC",
-        "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-      }
+{
+  "coins": {
+    "bitcoin": {
+      "coin": "bitcoin",
+      "pubver": 0,
+      "priver": 128,
+      "sym": "BTC"
+    },
+    "bitcoin gold": {
+      "coin": "bitcoin gold",
+      "pubver": 38,
+      "priver": 128,
+      "sym": "BTG"
+    },
+    "bitcoincash": {
+      "coin": "bitcoincash",
+      "cacode": "bitcoincash:",
+      "pubver": 0,
+      "priver": 128,
+      "sym": "BCH"
+    },
+    "blackcoin": {
+      "coin": "blackcoin",
+      "pubver": 25,
+      "priver": 153,
+      "sym": "BLK"
+    },
+    "c0ban": {
+      "coin": "c0ban",
+      "pubver": 18,
+      "priver": 136,
+      "sym": "RYO"
+    },
+    "citycoin": {
+      "coin": "citycoin",
+      "pubver": 28,
+      "priver": 237,
+      "sym": "CITY"
+    },
+    "dash": {
+      "coin": "dash",
+      "pubver": 76,
+      "priver": 204,
+      "sym": "DASH"
+    },
+    "decred": {
+      "coin": "decred",
+      "pubver": 1855,
+      "priver": 8926,
+      "sym": "DCR"
+    },
+    "denarius": {
+      "coin": "denarius",
+      "pubver": 30,
+      "priver": 158,
+      "sym": "DNR"
+    },
+    "digibyte": {
+      "coin": "digibyte",
+      "pubver": 30,
+      "priver": 128,
+      "sym": "DGB"
+    },
+    "dogecoin": {
+      "coin": "dogecoin",
+      "pubver": 30,
+      "priver": 158,
+      "sym": "DOGE"
+    },
+    "groestlcoin": {
+      "coin": "groestlcoin",
+      "pubver": 36,
+      "priver": 128,
+      "sym": "GRS"
+    },
+    "litecoin": {
+      "coin": "litecoin",
+      "pubver": 48,
+      "priver": 176,
+      "sym": "LTC"
+    },
+    "monacoin": {
+      "coin": "monacoin",
+      "pubver": 50,
+      "priver": 176,
+      "sym": "MONA"
+    },
+    "namecoin": {
+      "coin": "namecoin",
+      "pubver": 52,
+      "priver": 180,
+      "sym": "NMC"
+    },
+    "nubits": {
+      "coin": "nubits",
+      "pubver": 25,
+      "priver": 150,
+      "sym": "NBT"
+    },
+    "peercoin": {
+      "coin": "peercoin",
+      "pubver": 55,
+      "priver": 183,
+      "sym": "PPC"
+    },
+    "qtum": {
+      "coin": "qtum",
+      "pubver": 58,
+      "priver": 128,
+      "sym": "QTUM"
+    },
+    "ravencoin": {
+      "coin": "ravencoin",
+      "pubver": 60,
+      "priver": 128,
+      "sym": "RVN"
+    },
+    "reddcoin": {
+      "coin": "reddcoin",
+      "pubver": 61,
+      "priver": 189,
+      "sym": "RDD"
+    },
+    "vertcoin": {
+      "coin": "vertcoin",
+      "pubver": 71,
+      "priver": 128,
+      "sym": "VTC"
+    },
+    "viacoin": {
+      "coin": "viacoin",
+      "pubver": 71,
+      "priver": 199,
+      "sym": "VIA"
+    },
+    "x42": {
+      "coin": "x42",
+      "pubver": 75,
+      "priver": 203,
+      "sym": "x42"
+    },
+    "zcash": {
+      "coin": "zcash",
+      "pubver": 7352,
+      "priver": 128,
+      "sym": "ZEC"
     }
   },
-  {
-    "key": "0000000000000000000000000000000000000000000000000000000000000001",
-    "pub": "0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798",
-    "addrs": {
-      "BTC": {
-        "coin": "bitcoin",
-        "pubver": 0,
-        "priver": 128,
-        "addr": "1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH",
-        "sym": "BTC",
-        "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-      },
-      "BTG": {
-        "coin": "bitcoin gold",
-        "pubver": 38,
-        "priver": 128,
-        "addr": "GUXByHDZLvU4DnVH9imSFckt3HEQ5cFgE5",
-        "sym": "BTG",
-        "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-      },
-      "BCH": {
-        "coin": "bitcoincash",
-        "pubver": 0,
-        "priver": 128,
-        "addr": "1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH",
-        "sym": "BCH",
-        "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-      },
-      "BLK": {
-        "coin": "blackcoin",
-        "pubver": 25,
-        "priver": 153,
-        "addr": "BF8MAsLp7aSfb9g9qGSHwzDerit8nAZAJX",
-        "sym": "BLK",
-        "wif": "PdiUUh8dnXB36B2XcbPdodUX5Ujoj2VDubJwcW1V8DJu69XHZWGg"
-      },
-      "RYO": {
-        "coin": "c0ban",
-        "pubver": 18,
-        "priver": 136,
-        "addr": "8Rm8H7Fo9KCXs7hYfL74Z7K9TC5XnPGnWq",
-        "sym": "RYO",
-        "wif": "M7rkkx1LoubhXNoUDJgTGfsEr6KiXuss95ij6n7sn5VoJX3uPDSV"
-      },
-      "CITY": {
-        "coin": "citycoin",
-        "pubver": 28,
-        "priver": 237,
-        "addr": "CT9A8CEgF7qJ3T6QuXSFQN31kEexxxa2oX",
-        "sym": "CITY",
-        "wif": "c4RSWFQCVS8awe944xYegFRRyycbrBGHahdtcf7SNQcgjxF1FiSL"
-      },
-      "DASH": {
-        "coin": "dash",
-        "pubver": 76,
-        "priver": 204,
-        "addr": "XmN7PQYWKn5MJFna5fRYgP6mxT2F7xpekE",
-        "sym": "DASH",
-        "wif": "XBHddvWWiMu3nZhhpTXBQWJMmdz5JNKJD85b9fgKAckCT2coW3Y4"
-      },
-      "DCR": {
-        "coin": "decred",
-        "pubver": 1855,
-        "priver": 8926,
-        "addr": "DsbeB3ap3RiS4CLpgd1yXMSKLdrNMq9afGC",
-        "sym": "DCR",
-        "wif": "Zqiyvpzhs8PXKswXmpdFje18FTbpKuCP95HwDqv21EK1WzAjRzYR"
-      },
-      "DNR": {
-        "coin": "denarius",
-        "pubver": 30,
-        "priver": 158,
-        "addr": "DFpN6QqFfUm3gKNaxN6tNcab1FArL9cZLE",
-        "sym": "DNR",
-        "wif": "QNcdLVw8fHkixm6NNyN6nVwxKek4u7qrioRbQmjxac5TVoTtZuot"
-      },
-      "DGB": {
-        "coin": "digibyte",
-        "pubver": 30,
-        "priver": 128,
-        "addr": "DFpN6QqFfUm3gKNaxN6tNcab1FArL9cZLE",
-        "sym": "DGB",
-        "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-      },
-      "DOGE": {
-        "coin": "dogecoin",
-        "pubver": 30,
-        "priver": 158,
-        "addr": "DFpN6QqFfUm3gKNaxN6tNcab1FArL9cZLE",
-        "sym": "DOGE",
-        "wif": "QNcdLVw8fHkixm6NNyN6nVwxKek4u7qrioRbQmjxac5TVoTtZuot"
-      },
-      "GRS": {
-        "coin": "groestlcoin",
-        "pubver": 36,
-        "priver": 128,
-        "addr": "Ffqz14cyvZYJavD76t6oHNDJnGiWc7SadE",
-        "sym": "GRS",
-        "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-      },
-      "LTC": {
-        "coin": "litecoin",
-        "pubver": 48,
-        "priver": 176,
-        "addr": "LVuDpNCSSj6pQ7t9Pv6d6sUkLKoqDEVUnJ",
-        "sym": "LTC",
-        "wif": "T33ydQRKp4FCW5LCLLUB7deioUMoveiwekdwUwyfRDeGZm76aUjV"
-      },
-      "MONA": {
-        "coin": "monacoin",
-        "pubver": 50,
-        "priver": 176,
-        "addr": "MJaRnao1s62a2zAKSkmG582KbLKianqb7v",
-        "sym": "MONA",
-        "wif": "T33ydQRKp4FCW5LCLLUB7deioUMoveiwekdwUwyfRDeGZm76aUjV"
-      },
-      "NMC": {
-        "coin": "namecoin",
-        "pubver": 52,
-        "priver": 180,
-        "addr": "N7FdkoPbHSxKfrSVVbRu3NZtrLqc1oKpAR",
-        "sym": "NMC",
-        "wif": "TdNVv3rvWfukQ9PGYe3kJL2foDARGKorJX8TimN3P8f7h5uGyJzz"
-      },
-      "NBT": {
-        "coin": "nubits",
-        "pubver": 25,
-        "priver": 150,
-        "addr": "BF8MAsLp7aSfb9g9qGSHwzDerit8nAZAJX",
-        "sym": "NBT",
-        "wif": "PByamD3wG4RdAczDxNCxR7C4LB8rDmg3RGSYw8yCen3mF9tB3L1g"
-      },
-      "PPC": {
-        "coin": "peercoin",
-        "pubver": 55,
-        "priver": 183,
-        "addr": "PKGSi8HTQzLx89rkZrRrVkPFjrcSC55NP9",
-        "sym": "PPC",
-        "wif": "U57PdXwd38fAKhRaCsERgrK8YWmNmad2nqzrQ8QKrZvFY5Su3RGB"
-      },
-      "QTUM": {
-        "coin": "qtum",
-        "pubver": 58,
-        "priver": 128,
-        "addr": "QXHFfTBKYXjaaTH1e7Rox8CcdNPGHVhM59",
-        "sym": "QTUM",
-        "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-      },
-      "RVN": {
-        "coin": "ravencoin",
-        "pubver": 60,
-        "priver": 128,
-        "addr": "RKxTdfmtxtfLDKZBgx6SvNkBtNu9jRYnLh",
-        "sym": "RVN",
-        "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-      },
-      "RDD": {
-        "coin": "reddcoin",
-        "pubver": 61,
-        "priver": 189,
-        "addr": "RjJ4cn5Bg58D2khGiNRmQW1yWtA6Py9kWa",
-        "sym": "RDD",
-        "wif": "UxbB4W72649zAoWBXKbnTtt437yHn6FPmVjdkrUtoSSXE4gwagjA"
-      },
-      "VTC": {
-        "coin": "vertcoin",
-        "pubver": 71,
-        "priver": 128,
-        "addr": "Vkg6Ts44mskyD668xZkxFkjqovjXX9yUzZ",
-        "sym": "VTC",
-        "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-      },
-      "VIA": {
-        "coin": "viacoin",
-        "pubver": 71,
-        "priver": 199,
-        "addr": "Vkg6Ts44mskyD668xZkxFkjqovjXX9yUzZ",
-        "sym": "VIA",
-        "wif": "WSPUn7i1qbKMuyds45YiRdpvXTyp8GxfPuxwMPwqiDye3Nc8SkGq"
-      },
-      "x42": {
-        "coin": "x42",
-        "pubver": 75,
-        "priver": 203,
-        "addr": "XN2WQJFDcbcUUpeV4F6ECFpzKwmJQsQ7B7",
-        "sym": "x42",
-        "wif": "X2i14m9cYCyup3gwGP8HcLCsXCnRTx3a3gTTbDLDg8zVAhUBiAFi"
-      },
-      "ZEC": {
-        "coin": "zcash",
-        "pubver": 7352,
-        "priver": 128,
-        "addr": "t1UYsZVJkLPeMjxEtACvSxfWuNmddpWfxzs",
-        "sym": "ZEC",
-        "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
+  "addrs": [
+    {
+      "key": "038109007313a5807b2eccc082c8c3fbb988a973cacf1a7df9ce725c31b14776",
+      "pub": "0202a406624211f2abbdc68da3df929f938c3399dd79fac1b51b0e4ad1d26a47aa",
+      "addrs": {
+        "BTC": {
+          "coin": "bitcoin",
+          "sym": "BTC",
+          "addr": "1PRTTaJesdNovgne6Ehcdu1fpEdX7913CK",
+          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
+        },
+        "BTG": {
+          "coin": "bitcoin gold",
+          "sym": "BTG",
+          "addr": "GgGNshdbrUz71A5w2BMj4fMZjQRND7t19o",
+          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
+        },
+        "BCH": {
+          "coin": "bitcoincash",
+          "sym": "BCH",
+          "addr": "1PRTTaJesdNovgne6Ehcdu1fpEdX7913CK",
+          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
+        },
+        "BLK": {
+          "coin": "blackcoin",
+          "sym": "BLK",
+          "addr": "BSsY5Hkrd8xiNXGohj2am2pLYr56vinGp4",
+          "wif": "PdqHYFa6adkz6QgMzWJ9CYKjjoD7ywnSHq6bA1Y5i1LuXM7TKb3G"
+        },
+        "RYO": {
+          "coin": "c0ban",
+          "sym": "RYO",
+          "addr": "8dWKBXfqesiaeVJCXnhMN9uq9KGVuc9QrC",
+          "wif": "M7yZpWSoc2BeXcTJbDaxfaiTWQo2nqB5XKWNeHeUMsXojin1JXUX"
+        },
+        "CITY": {
+          "coin": "citycoin",
+          "sym": "CITY",
+          "addr": "CetM2ceikgMLpph4mz2YDQdhSMqw6bo4Cw",
+          "wif": "c4YFZoqfHYiXwsntSsTA5AGeeJ5v76ZVxwRYAAe2xCehB9qzKQyM"
+        },
+        "DASH": {
+          "coin": "dash",
+          "sym": "DASH",
+          "addr": "Xy7JHpxYqLbQ5dPDx81qVRhTeaDD9Y4fTb",
+          "wif": "XBQShUwyWUUznoMYCNRgoR9aRxTPZHcWbMsEhBCukQnCtEK5XVHm"
+        },
+        "DCR": {
+          "coin": "decred",
+          "sym": "DCR",
+          "addr": "DsoPMx1E5wGx6yiRLVUZpAUv2KyZKutu7NT",
+          "wif": "ZqqnzPSAfEyUL7bN9jXm8YrLun58apVbXK5amMScb2M1xBsw3oZQ"
+        },
+        "DNR": {
+          "coin": "denarius",
+          "sym": "DNR",
+          "addr": "DTZYzqFJB3H6TgyEpphBBfBGhNMpWH5SH2",
+          "wif": "QNjSQ4NbTQLfxzkCktGcBQoAyyDPA39573DExHGZAQ7Tw15ddv1d"
+        },
+        "DGB": {
+          "coin": "digibyte",
+          "sym": "DGB",
+          "addr": "DTZYzqFJB3H6TgyEpphBBfBGhNMpWH5SH2",
+          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
+        },
+        "DOGE": {
+          "coin": "dogecoin",
+          "sym": "DOGE",
+          "addr": "DTZYzqFJB3H6TgyEpphBBfBGhNMpWH5SH2",
+          "wif": "QNjSQ4NbTQLfxzkCktGcBQoAyyDPA39573DExHGZAQ7Tw15ddv1d"
+        },
+        "GRS": {
+          "coin": "groestlcoin",
+          "sym": "GRS",
+          "addr": "FsbAuV32S84MNHokyLh66QozUPuUj3LYHP",
+          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
+        },
+        "LTC": {
+          "coin": "litecoin",
+          "sym": "LTC",
+          "addr": "LheQincUxHcsBVUoGNguuv5S2SzoFQkc3j",
+          "wif": "T3AngxrncAq9WJz2iFNgWYVwTnq8Ba2A2zRb2TWG11gGzxfDFy9i"
+        },
+        "MONA": {
+          "coin": "monacoin",
+          "sym": "MONA",
+          "addr": "MWKch1D4NeYcpMkyKDMYtAd1HTWgeCjrBa",
+          "wif": "T3AngxrncAq9WJz2iFNgWYVwTnq8Ba2A2zRb2TWG11gGzxfDFy9i"
+        },
+        "NMC": {
+          "coin": "namecoin",
+          "sym": "NMC",
+          "addr": "NJzpfDodo1UNTE39N42BrRAaYU2a6T67ka",
+          "wif": "TdVJycJPJnVhQP36vYxFhEstTXdjXF74gkv7GGtdxvh88HYmgTjY"
+        },
+        "NBT": {
+          "coin": "nubits",
+          "sym": "NBT",
+          "addr": "BSsY5Hkrd8xiNXGohj2am2pLYr56vinGp4",
+          "wif": "PC6PpmVQ4B1aAre4LH7Tp23GzVcAUgyFoWECUeVoEa5mgMXc8wMJ"
+        },
+        "PPC": {
+          "coin": "peercoin",
+          "sym": "PPC",
+          "addr": "PX1dcYhVvYrzuXTQSK29JnywRyoQJJoS4J",
+          "wif": "U5ECh6P5qFF7Kw5Qan8w5mAMCqEh2VvFB5nVwdvvSMxFyH42FJ9a"
+        },
+        "QTUM": {
+          "coin": "qtum",
+          "sym": "QTUM",
+          "addr": "Qj2SZsbN46FdMpsfWa26mAoJKVaEPuhNXw",
+          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
+        },
+        "RVN": {
+          "coin": "ravencoin",
+          "sym": "RVN",
+          "addr": "RXheY6BwUTBNzh9qZQgjjRLsaW67r8wUCo",
+          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
+        },
+        "RDD": {
+          "coin": "reddcoin",
+          "sym": "RDD",
+          "addr": "Rw3FXCVEBdeFp8Hvaq24DYcfD1M4YnqiaB",
+          "wif": "Uxhz84YUtAjwB3A1uEWHrojGhSSc31Yc9jXHJN1VPEUXfGFewYvU"
+        },
+        "VTC": {
+          "coin": "vertcoin",
+          "sym": "VTC",
+          "addr": "VxRHNHU7HSH1zTgnq2MF4oLXW3vVaefQxp",
+          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
+        },
+        "VIA": {
+          "coin": "viacoin",
+          "sym": "VIA",
+          "addr": "VxRHNHU7HSH1zTgnq2MF4oLXW3vVaefQxp",
+          "wif": "WSWHqg9UdhuJvDHhRzTDpYg9BnT8PCFsn9katuUSJ21eUaEYRhmk"
+        },
+        "x42": {
+          "coin": "x42",
+          "sym": "x42",
+          "addr": "XZmhJifG8A8XGCF8vhgX1JRg24xGSBtBap",
+          "wif": "X2pp8Kb5LKZrpHLmeJ2o1F46BXFjisLnRvF78irpFw2Vbu2d2uQK"
+        },
+        "ZEC": {
+          "coin": "zcash",
+          "sym": "ZEC",
+          "addr": "t1gJ4TuinqxAQXKqY2fWjmi7b4tpbyPDwz8",
+          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
+        }
+      }
+    },
+    {
+      "key": "0000000000000000000000000000000000000000000000000000000000000001",
+      "pub": "0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798",
+      "addrs": {
+        "BTC": {
+          "coin": "bitcoin",
+          "sym": "BTC",
+          "addr": "1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH",
+          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
+        },
+        "BTG": {
+          "coin": "bitcoin gold",
+          "sym": "BTG",
+          "addr": "GUXByHDZLvU4DnVH9imSFckt3HEQ5cFgE5",
+          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
+        },
+        "BCH": {
+          "coin": "bitcoincash",
+          "sym": "BCH",
+          "addr": "1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH",
+          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
+        },
+        "BLK": {
+          "coin": "blackcoin",
+          "sym": "BLK",
+          "addr": "BF8MAsLp7aSfb9g9qGSHwzDerit8nAZAJX",
+          "wif": "PdiUUh8dnXB36B2XcbPdodUX5Ujoj2VDubJwcW1V8DJu69XHZWGg"
+        },
+        "RYO": {
+          "coin": "c0ban",
+          "sym": "RYO",
+          "addr": "8Rm8H7Fo9KCXs7hYfL74Z7K9TC5XnPGnWq",
+          "wif": "M7rkkx1LoubhXNoUDJgTGfsEr6KiXuss95ij6n7sn5VoJX3uPDSV"
+        },
+        "CITY": {
+          "coin": "citycoin",
+          "sym": "CITY",
+          "addr": "CT9A8CEgF7qJ3T6QuXSFQN31kEexxxa2oX",
+          "wif": "c4RSWFQCVS8awe944xYegFRRyycbrBGHahdtcf7SNQcgjxF1FiSL"
+        },
+        "DASH": {
+          "coin": "dash",
+          "sym": "DASH",
+          "addr": "XmN7PQYWKn5MJFna5fRYgP6mxT2F7xpekE",
+          "wif": "XBHddvWWiMu3nZhhpTXBQWJMmdz5JNKJD85b9fgKAckCT2coW3Y4"
+        },
+        "DCR": {
+          "coin": "decred",
+          "sym": "DCR",
+          "addr": "DsbeB3ap3RiS4CLpgd1yXMSKLdrNMq9afGC",
+          "wif": "Zqiyvpzhs8PXKswXmpdFje18FTbpKuCP95HwDqv21EK1WzAjRzYR"
+        },
+        "DNR": {
+          "coin": "denarius",
+          "sym": "DNR",
+          "addr": "DFpN6QqFfUm3gKNaxN6tNcab1FArL9cZLE",
+          "wif": "QNcdLVw8fHkixm6NNyN6nVwxKek4u7qrioRbQmjxac5TVoTtZuot"
+        },
+        "DGB": {
+          "coin": "digibyte",
+          "sym": "DGB",
+          "addr": "DFpN6QqFfUm3gKNaxN6tNcab1FArL9cZLE",
+          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
+        },
+        "DOGE": {
+          "coin": "dogecoin",
+          "sym": "DOGE",
+          "addr": "DFpN6QqFfUm3gKNaxN6tNcab1FArL9cZLE",
+          "wif": "QNcdLVw8fHkixm6NNyN6nVwxKek4u7qrioRbQmjxac5TVoTtZuot"
+        },
+        "GRS": {
+          "coin": "groestlcoin",
+          "sym": "GRS",
+          "addr": "Ffqz14cyvZYJavD76t6oHNDJnGiWc7SadE",
+          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
+        },
+        "LTC": {
+          "coin": "litecoin",
+          "sym": "LTC",
+          "addr": "LVuDpNCSSj6pQ7t9Pv6d6sUkLKoqDEVUnJ",
+          "wif": "T33ydQRKp4FCW5LCLLUB7deioUMoveiwekdwUwyfRDeGZm76aUjV"
+        },
+        "MONA": {
+          "coin": "monacoin",
+          "sym": "MONA",
+          "addr": "MJaRnao1s62a2zAKSkmG582KbLKianqb7v",
+          "wif": "T33ydQRKp4FCW5LCLLUB7deioUMoveiwekdwUwyfRDeGZm76aUjV"
+        },
+        "NMC": {
+          "coin": "namecoin",
+          "sym": "NMC",
+          "addr": "N7FdkoPbHSxKfrSVVbRu3NZtrLqc1oKpAR",
+          "wif": "TdNVv3rvWfukQ9PGYe3kJL2foDARGKorJX8TimN3P8f7h5uGyJzz"
+        },
+        "NBT": {
+          "coin": "nubits",
+          "sym": "NBT",
+          "addr": "BF8MAsLp7aSfb9g9qGSHwzDerit8nAZAJX",
+          "wif": "PByamD3wG4RdAczDxNCxR7C4LB8rDmg3RGSYw8yCen3mF9tB3L1g"
+        },
+        "PPC": {
+          "coin": "peercoin",
+          "sym": "PPC",
+          "addr": "PKGSi8HTQzLx89rkZrRrVkPFjrcSC55NP9",
+          "wif": "U57PdXwd38fAKhRaCsERgrK8YWmNmad2nqzrQ8QKrZvFY5Su3RGB"
+        },
+        "QTUM": {
+          "coin": "qtum",
+          "sym": "QTUM",
+          "addr": "QXHFfTBKYXjaaTH1e7Rox8CcdNPGHVhM59",
+          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
+        },
+        "RVN": {
+          "coin": "ravencoin",
+          "sym": "RVN",
+          "addr": "RKxTdfmtxtfLDKZBgx6SvNkBtNu9jRYnLh",
+          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
+        },
+        "RDD": {
+          "coin": "reddcoin",
+          "sym": "RDD",
+          "addr": "RjJ4cn5Bg58D2khGiNRmQW1yWtA6Py9kWa",
+          "wif": "UxbB4W72649zAoWBXKbnTtt437yHn6FPmVjdkrUtoSSXE4gwagjA"
+        },
+        "VTC": {
+          "coin": "vertcoin",
+          "sym": "VTC",
+          "addr": "Vkg6Ts44mskyD668xZkxFkjqovjXX9yUzZ",
+          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
+        },
+        "VIA": {
+          "coin": "viacoin",
+          "sym": "VIA",
+          "addr": "Vkg6Ts44mskyD668xZkxFkjqovjXX9yUzZ",
+          "wif": "WSPUn7i1qbKMuyds45YiRdpvXTyp8GxfPuxwMPwqiDye3Nc8SkGq"
+        },
+        "x42": {
+          "coin": "x42",
+          "sym": "x42",
+          "addr": "XN2WQJFDcbcUUpeV4F6ECFpzKwmJQsQ7B7",
+          "wif": "X2i14m9cYCyup3gwGP8HcLCsXCnRTx3a3gTTbDLDg8zVAhUBiAFi"
+        },
+        "ZEC": {
+          "coin": "zcash",
+          "sym": "ZEC",
+          "addr": "t1UYsZVJkLPeMjxEtACvSxfWuNmddpWfxzs",
+          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
+        }
       }
     }
-  }
-]
+  ]
+}
