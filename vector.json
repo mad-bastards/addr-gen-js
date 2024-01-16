@@ -16,6 +16,7 @@
       "coin": "bitcoincash",
       "pubver": 0,
       "priver": 128,
+      "bchpre": "bitcoincash",
       "sym": "bch"
     },
     "blk": {
@@ -163,7 +164,8 @@
         "bch": {
           "sym": "bch",
           "addr": "1PRTTaJesdNovgne6Ehcdu1fpEdX7913CK",
-          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
+          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf",
+          "bchaddr": "bitcoincash:qr6l943ye76u8andqcfr6zpf68yua0mhpctmpg2s8m"
         },
         "blk": {
           "sym": "blk",
@@ -289,7 +291,8 @@
         "bch": {
           "sym": "bch",
           "addr": "1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH",
-          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
+          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn",
+          "bchaddr": "bitcoincash:qp63uahgrxged4z5jswyt5dn5v3lzsem6cy4spdc2h"
         },
         "blk": {
           "sym": "blk",

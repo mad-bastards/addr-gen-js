@@ -1,5 +1,7 @@
 import coininfo from 'coininfo';
 import CoinKey from 'coinkey';
+import cashaddr from  'cashaddrjs';
+
 import fs from 'fs';
 var coins=["decred"];
 coins = Object.keys(coininfo);
@@ -19,6 +21,7 @@ for( const coin of coins ) {
   const ci = coininfo(coin);
   vec.pubver=ci.versions.public;
   vec.priver=ci.versions.private;
+  vec.bchpre=ci.versions.bchpre;
   vec.sym=ci.unit.toLowerCase();
   vector.coins[vec.sym]=vec;
 }
@@ -37,6 +40,13 @@ for(const hex_key of keys ) {
     const ck = new CoinKey(key,ci);
     vec.addr=ck.publicAddress;
     vec.wif=ck.privateWif;
+    if(ci.versions.bchpre) {
+      const prefix=ci.versions.bchpre;
+      const type='P2PKH';
+      const hash=ck.pubKeyHash;
+      const bchaddr=cashaddr.encode(prefix, type, hash);
+      vec.bchaddr=bchaddr;
+    }
     set.addrs[vec.sym]=vec;
   }
 }
