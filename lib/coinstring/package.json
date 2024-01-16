@@ -1,0 +1,29 @@
+{
+  "name": "coinstring",
+  "version": "2.3.1",
+  "license": "MIT",
+  "description": "Create and parse crypto currency addresses and wallet import formats.",
+  "keywords": [
+    "cryptography",
+    "crypto",
+    "bitcoin",
+    "litecoin",
+    "dogecoin",
+    "currency",
+    "cryptocurrency",
+    "address",
+    "wif",
+    "base58",
+    "bip32"
+  ],
+  "main": "./lib/coinstring.js",
+  "dependencies": {
+    "bs58": "^2.0.1",
+    "create-hash": "^1.1.1"
+  },
+  "repository": {
+	  "url": "git@github.com:mad-bastards/addr-gen-js.git",
+    "directory": "lib/coinkey",
+    "type": "git"
+  }
+}
