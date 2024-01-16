@@ -1,0 +1,52 @@
+{
+  "name": "coininfo",
+  "version": "5.2.1",
+  "description": "JavaScript component for crypto currency specific information.",
+  "license": "MIT",
+  "keywords": [
+    "cryptography",
+    "crypto",
+    "coin",
+    "bitcoin",
+    "bitcoin gold",
+    "litecoin",
+    "viacoin",
+    "groestlcoin",
+    "elliptic",
+    "curve",
+    "dogecoin",
+    "blackcoin",
+    "namecoin",
+    "denarius",
+    "dash",
+    "monacoin",
+    "zcash",
+    "vertcoin",
+    "qtum"
+  ],
+  "repository": {
+	  "url": "git@github.com:mad-bastards/addr-gen-js.git",
+    "directory": "lib/coininfo",
+    "type": "git"
+  },
+  "main": "./lib/coininfo.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "tape test/**/*.js"
+  },
+  "dependencies": {
+    "safe-buffer": "^5.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/cryptocoinjs/coininfo/issues"
+  },
+  "homepage": "https://github.com/cryptocoinjs/coininfo#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": ""
+}

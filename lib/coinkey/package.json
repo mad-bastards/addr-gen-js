@@ -1,0 +1,32 @@
+{
+  "name": "coinkey",
+  "version": "3.0.0",
+  "description": "JavaScript component for private keys, public keys, and addresess for crypto currencies such as Bitcoin, Litecoin, and Dogecoin",
+  "keywords": [
+    "cryptography",
+    "crypto",
+    "bitcoin",
+    "litecoin",
+    "elliptical",
+    "curve"
+  ],
+  "license": "MIT",
+  "repository": {
+	  "url": "git@github.com:mad-bastards/addr-gen-js.git",
+    "directory": "lib/coinkey",
+    "type": "git"
+  },
+  "main": "./lib/coinkey.js",
+  "dependencies": {
+    "eckey": "^1.0.0",
+    "inherits": "^2.0.1",
+    "secure-random": "^1.0.0"
+  },
+  "scripts": {
+    "browser-test": "mochify --wd -R spec",
+    "test": "standard && mocha",
+    "unit": "./node_modules/.bin/mocha",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --reporter list test/*.js",
+    "coveralls": "npm run-script coverage && node ./node_modules/.bin/coveralls < coverage/lcov.info"
+  }
+}
