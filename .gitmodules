@@ -1,3 +1,5 @@
 [submodule "cashaddrjs"]
 	path = lib/cashaddrjs
 	url = ../cashaddrjs
+[submodule "cashaddrjs/"]
+	branch = main
