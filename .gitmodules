@@ -1,0 +1,3 @@
+[submodule "cashaddrjs"]
+	path = lib/cashaddrjs
+	url = ../cashaddrjs
