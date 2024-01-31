@@ -1,9 +1,16 @@
 import coininfo from 'coininfo';
 import CoinKey from 'coinkey';
 import cashaddr from  'cashaddrjs';
+import { encode, decode } from 'coinstring';
+
+const str = "1PRTTaJesdNovgne6Ehcdu1fpEdX7913CK";
+console.log(decode(str,0));
+process.exit(0);
+
 
 import fs from 'fs';
-var coins=["decred"];
+
+let coins;///=["decred"];
 coins = Object.keys(coininfo);
 coins.sort();
 //   console.dump=function(obj) {

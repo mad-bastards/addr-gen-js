@@ -1,6 +1,9 @@
 
 
-all: run-index
+all: run-cs
+
+run-cs:
+	vi-node cs.js
 
 run-gen-coins: install
 	vi-node gen-coins.mjs
