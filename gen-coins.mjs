@@ -4,9 +4,11 @@ import fs from 'fs';
 var coins=["decred"];
 coins = Object.keys(coininfo);
 coins.sort();
+const vector={};
 for( const coin of coins ) {
   const vec={ coin };
   const ci = coininfo(coin);
+  vector[coin]=ci;
   console.log({vec,ci});
 }
 

@@ -1,405 +1,630 @@
 {
-  "coins": {
-    "btc": {
-      "coin": "bitcoin",
-      "pubver": 0,
-      "priver": 128,
-      "sym": "btc"
+  "bitcoin": {
+    "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+    "port": 8333,
+    "portRpc": 8332,
+    "protocol": {
+      "magic": 3652501241
     },
-    "btg": {
-      "coin": "bitcoin gold",
-      "pubver": 38,
-      "priver": 128,
-      "sym": "btg"
+    "bech32": "bc",
+    "seedsDns": [
+      "seed.bitcoin.sipa.be",
+      "dnsseed.bluematt.me",
+      "seed.bitcoinstats.com",
+      "seed.bitcoin.jonasschnelli.ch",
+      "seed.btc.petertodd.org",
+      "seed.bitcoin.sprovoost.nl",
+      "dnsseed.emzy.de"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 0,
+      "private": 128,
+      "public": 0,
+      "scripthash": 5
     },
-    "bch": {
-      "coin": "bitcoincash",
-      "pubver": 0,
-      "priver": 128,
-      "bchpre": "bitcoincash",
-      "sym": "bch"
-    },
-    "blk": {
-      "coin": "blackcoin",
-      "pubver": 25,
-      "priver": 153,
-      "sym": "blk"
-    },
-    "ryo": {
-      "coin": "c0ban",
-      "pubver": 18,
-      "priver": 136,
-      "sym": "ryo"
-    },
-    "city": {
-      "coin": "citycoin",
-      "pubver": 28,
-      "priver": 237,
-      "sym": "city"
-    },
-    "dash": {
-      "coin": "dash",
-      "pubver": 76,
-      "priver": 204,
-      "sym": "dash"
-    },
-    "dcr": {
-      "coin": "decred",
-      "pubver": 1855,
-      "priver": 8926,
-      "sym": "dcr"
-    },
-    "dnr": {
-      "coin": "denarius",
-      "pubver": 30,
-      "priver": 158,
-      "sym": "dnr"
-    },
-    "dgb": {
-      "coin": "digibyte",
-      "pubver": 30,
-      "priver": 128,
-      "sym": "dgb"
-    },
-    "doge": {
-      "coin": "dogecoin",
-      "pubver": 30,
-      "priver": 158,
-      "sym": "doge"
-    },
-    "grs": {
-      "coin": "groestlcoin",
-      "pubver": 36,
-      "priver": 128,
-      "sym": "grs"
-    },
-    "ltc": {
-      "coin": "litecoin",
-      "pubver": 48,
-      "priver": 176,
-      "sym": "ltc"
-    },
-    "mona": {
-      "coin": "monacoin",
-      "pubver": 50,
-      "priver": 176,
-      "sym": "mona"
-    },
-    "nmc": {
-      "coin": "namecoin",
-      "pubver": 52,
-      "priver": 180,
-      "sym": "nmc"
-    },
-    "nbt": {
-      "coin": "nubits",
-      "pubver": 25,
-      "priver": 150,
-      "sym": "nbt"
-    },
-    "ppc": {
-      "coin": "peercoin",
-      "pubver": 55,
-      "priver": 183,
-      "sym": "ppc"
-    },
-    "qtum": {
-      "coin": "qtum",
-      "pubver": 58,
-      "priver": 128,
-      "sym": "qtum"
-    },
-    "rvn": {
-      "coin": "ravencoin",
-      "pubver": 60,
-      "priver": 128,
-      "sym": "rvn"
-    },
-    "rdd": {
-      "coin": "reddcoin",
-      "pubver": 61,
-      "priver": 189,
-      "sym": "rdd"
-    },
-    "vtc": {
-      "coin": "vertcoin",
-      "pubver": 71,
-      "priver": 128,
-      "sym": "vtc"
-    },
-    "via": {
-      "coin": "viacoin",
-      "pubver": 71,
-      "priver": 199,
-      "sym": "via"
-    },
-    "x42": {
-      "coin": "x42",
-      "pubver": 75,
-      "priver": 203,
-      "sym": "x42"
-    },
-    "zec": {
-      "coin": "zcash",
-      "pubver": 7352,
-      "priver": 128,
-      "sym": "zec"
-    }
+    "name": "Bitcoin",
+    "per1": 100000000,
+    "unit": "BTC",
+    "messagePrefix": "\u0018Bitcoin Signed Message:\n",
+    "testnet": false
   },
-  "addrs": [
-    {
-      "key": "038109007313a5807b2eccc082c8c3fbb988a973cacf1a7df9ce725c31b14776",
-      "pub": "0202a406624211f2abbdc68da3df929f938c3399dd79fac1b51b0e4ad1d26a47aa",
-      "addrs": {
-        "btc": {
-          "sym": "btc",
-          "addr": "1PRTTaJesdNovgne6Ehcdu1fpEdX7913CK",
-          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-        },
-        "btg": {
-          "sym": "btg",
-          "addr": "GgGNshdbrUz71A5w2BMj4fMZjQRND7t19o",
-          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-        },
-        "bch": {
-          "sym": "bch",
-          "addr": "1PRTTaJesdNovgne6Ehcdu1fpEdX7913CK",
-          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf",
-          "bchaddr": "bitcoincash:qr6l943ye76u8andqcfr6zpf68yua0mhpctmpg2s8m"
-        },
-        "blk": {
-          "sym": "blk",
-          "addr": "BSsY5Hkrd8xiNXGohj2am2pLYr56vinGp4",
-          "wif": "PdqHYFa6adkz6QgMzWJ9CYKjjoD7ywnSHq6bA1Y5i1LuXM7TKb3G"
-        },
-        "ryo": {
-          "sym": "ryo",
-          "addr": "8dWKBXfqesiaeVJCXnhMN9uq9KGVuc9QrC",
-          "wif": "M7yZpWSoc2BeXcTJbDaxfaiTWQo2nqB5XKWNeHeUMsXojin1JXUX"
-        },
-        "city": {
-          "sym": "city",
-          "addr": "CetM2ceikgMLpph4mz2YDQdhSMqw6bo4Cw",
-          "wif": "c4YFZoqfHYiXwsntSsTA5AGeeJ5v76ZVxwRYAAe2xCehB9qzKQyM"
-        },
-        "dash": {
-          "sym": "dash",
-          "addr": "Xy7JHpxYqLbQ5dPDx81qVRhTeaDD9Y4fTb",
-          "wif": "XBQShUwyWUUznoMYCNRgoR9aRxTPZHcWbMsEhBCukQnCtEK5XVHm"
-        },
-        "dcr": {
-          "sym": "dcr",
-          "addr": "DsoPMx1E5wGx6yiRLVUZpAUv2KyZKutu7NT",
-          "wif": "ZqqnzPSAfEyUL7bN9jXm8YrLun58apVbXK5amMScb2M1xBsw3oZQ"
-        },
-        "dnr": {
-          "sym": "dnr",
-          "addr": "DTZYzqFJB3H6TgyEpphBBfBGhNMpWH5SH2",
-          "wif": "QNjSQ4NbTQLfxzkCktGcBQoAyyDPA39573DExHGZAQ7Tw15ddv1d"
-        },
-        "dgb": {
-          "sym": "dgb",
-          "addr": "DTZYzqFJB3H6TgyEpphBBfBGhNMpWH5SH2",
-          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-        },
-        "doge": {
-          "sym": "doge",
-          "addr": "DTZYzqFJB3H6TgyEpphBBfBGhNMpWH5SH2",
-          "wif": "QNjSQ4NbTQLfxzkCktGcBQoAyyDPA39573DExHGZAQ7Tw15ddv1d"
-        },
-        "grs": {
-          "sym": "grs",
-          "addr": "FsbAuV32S84MNHokyLh66QozUPuUj3LYHP",
-          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-        },
-        "ltc": {
-          "sym": "ltc",
-          "addr": "LheQincUxHcsBVUoGNguuv5S2SzoFQkc3j",
-          "wif": "T3AngxrncAq9WJz2iFNgWYVwTnq8Ba2A2zRb2TWG11gGzxfDFy9i"
-        },
-        "mona": {
-          "sym": "mona",
-          "addr": "MWKch1D4NeYcpMkyKDMYtAd1HTWgeCjrBa",
-          "wif": "T3AngxrncAq9WJz2iFNgWYVwTnq8Ba2A2zRb2TWG11gGzxfDFy9i"
-        },
-        "nmc": {
-          "sym": "nmc",
-          "addr": "NJzpfDodo1UNTE39N42BrRAaYU2a6T67ka",
-          "wif": "TdVJycJPJnVhQP36vYxFhEstTXdjXF74gkv7GGtdxvh88HYmgTjY"
-        },
-        "nbt": {
-          "sym": "nbt",
-          "addr": "BSsY5Hkrd8xiNXGohj2am2pLYr56vinGp4",
-          "wif": "PC6PpmVQ4B1aAre4LH7Tp23GzVcAUgyFoWECUeVoEa5mgMXc8wMJ"
-        },
-        "ppc": {
-          "sym": "ppc",
-          "addr": "PX1dcYhVvYrzuXTQSK29JnywRyoQJJoS4J",
-          "wif": "U5ECh6P5qFF7Kw5Qan8w5mAMCqEh2VvFB5nVwdvvSMxFyH42FJ9a"
-        },
-        "qtum": {
-          "sym": "qtum",
-          "addr": "Qj2SZsbN46FdMpsfWa26mAoJKVaEPuhNXw",
-          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-        },
-        "rvn": {
-          "sym": "rvn",
-          "addr": "RXheY6BwUTBNzh9qZQgjjRLsaW67r8wUCo",
-          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-        },
-        "rdd": {
-          "sym": "rdd",
-          "addr": "Rw3FXCVEBdeFp8Hvaq24DYcfD1M4YnqiaB",
-          "wif": "Uxhz84YUtAjwB3A1uEWHrojGhSSc31Yc9jXHJN1VPEUXfGFewYvU"
-        },
-        "vtc": {
-          "sym": "vtc",
-          "addr": "VxRHNHU7HSH1zTgnq2MF4oLXW3vVaefQxp",
-          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-        },
-        "via": {
-          "sym": "via",
-          "addr": "VxRHNHU7HSH1zTgnq2MF4oLXW3vVaefQxp",
-          "wif": "WSWHqg9UdhuJvDHhRzTDpYg9BnT8PCFsn9katuUSJ21eUaEYRhmk"
-        },
-        "x42": {
-          "sym": "x42",
-          "addr": "XZmhJifG8A8XGCF8vhgX1JRg24xGSBtBap",
-          "wif": "X2pp8Kb5LKZrpHLmeJ2o1F46BXFjisLnRvF78irpFw2Vbu2d2uQK"
-        },
-        "zec": {
-          "sym": "zec",
-          "addr": "t1gJ4TuinqxAQXKqY2fWjmi7b4tpbyPDwz8",
-          "wif": "KwLXFDZcCnrYjUMAAcRpJBxZWwBp7V1GDnXLAesiS3W7V585bCzf"
-        }
-      }
+  "bitcoin gold": {
+    "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+    "port": 8338,
+    "protocol": {
+      "magic": 1148012513
     },
-    {
-      "key": "0000000000000000000000000000000000000000000000000000000000000001",
-      "pub": "0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798",
-      "addrs": {
-        "btc": {
-          "sym": "btc",
-          "addr": "1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH",
-          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-        },
-        "btg": {
-          "sym": "btg",
-          "addr": "GUXByHDZLvU4DnVH9imSFckt3HEQ5cFgE5",
-          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-        },
-        "bch": {
-          "sym": "bch",
-          "addr": "1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH",
-          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn",
-          "bchaddr": "bitcoincash:qp63uahgrxged4z5jswyt5dn5v3lzsem6cy4spdc2h"
-        },
-        "blk": {
-          "sym": "blk",
-          "addr": "BF8MAsLp7aSfb9g9qGSHwzDerit8nAZAJX",
-          "wif": "PdiUUh8dnXB36B2XcbPdodUX5Ujoj2VDubJwcW1V8DJu69XHZWGg"
-        },
-        "ryo": {
-          "sym": "ryo",
-          "addr": "8Rm8H7Fo9KCXs7hYfL74Z7K9TC5XnPGnWq",
-          "wif": "M7rkkx1LoubhXNoUDJgTGfsEr6KiXuss95ij6n7sn5VoJX3uPDSV"
-        },
-        "city": {
-          "sym": "city",
-          "addr": "CT9A8CEgF7qJ3T6QuXSFQN31kEexxxa2oX",
-          "wif": "c4RSWFQCVS8awe944xYegFRRyycbrBGHahdtcf7SNQcgjxF1FiSL"
-        },
-        "dash": {
-          "sym": "dash",
-          "addr": "XmN7PQYWKn5MJFna5fRYgP6mxT2F7xpekE",
-          "wif": "XBHddvWWiMu3nZhhpTXBQWJMmdz5JNKJD85b9fgKAckCT2coW3Y4"
-        },
-        "dcr": {
-          "sym": "dcr",
-          "addr": "DsbeB3ap3RiS4CLpgd1yXMSKLdrNMq9afGC",
-          "wif": "Zqiyvpzhs8PXKswXmpdFje18FTbpKuCP95HwDqv21EK1WzAjRzYR"
-        },
-        "dnr": {
-          "sym": "dnr",
-          "addr": "DFpN6QqFfUm3gKNaxN6tNcab1FArL9cZLE",
-          "wif": "QNcdLVw8fHkixm6NNyN6nVwxKek4u7qrioRbQmjxac5TVoTtZuot"
-        },
-        "dgb": {
-          "sym": "dgb",
-          "addr": "DFpN6QqFfUm3gKNaxN6tNcab1FArL9cZLE",
-          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-        },
-        "doge": {
-          "sym": "doge",
-          "addr": "DFpN6QqFfUm3gKNaxN6tNcab1FArL9cZLE",
-          "wif": "QNcdLVw8fHkixm6NNyN6nVwxKek4u7qrioRbQmjxac5TVoTtZuot"
-        },
-        "grs": {
-          "sym": "grs",
-          "addr": "Ffqz14cyvZYJavD76t6oHNDJnGiWc7SadE",
-          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-        },
-        "ltc": {
-          "sym": "ltc",
-          "addr": "LVuDpNCSSj6pQ7t9Pv6d6sUkLKoqDEVUnJ",
-          "wif": "T33ydQRKp4FCW5LCLLUB7deioUMoveiwekdwUwyfRDeGZm76aUjV"
-        },
-        "mona": {
-          "sym": "mona",
-          "addr": "MJaRnao1s62a2zAKSkmG582KbLKianqb7v",
-          "wif": "T33ydQRKp4FCW5LCLLUB7deioUMoveiwekdwUwyfRDeGZm76aUjV"
-        },
-        "nmc": {
-          "sym": "nmc",
-          "addr": "N7FdkoPbHSxKfrSVVbRu3NZtrLqc1oKpAR",
-          "wif": "TdNVv3rvWfukQ9PGYe3kJL2foDARGKorJX8TimN3P8f7h5uGyJzz"
-        },
-        "nbt": {
-          "sym": "nbt",
-          "addr": "BF8MAsLp7aSfb9g9qGSHwzDerit8nAZAJX",
-          "wif": "PByamD3wG4RdAczDxNCxR7C4LB8rDmg3RGSYw8yCen3mF9tB3L1g"
-        },
-        "ppc": {
-          "sym": "ppc",
-          "addr": "PKGSi8HTQzLx89rkZrRrVkPFjrcSC55NP9",
-          "wif": "U57PdXwd38fAKhRaCsERgrK8YWmNmad2nqzrQ8QKrZvFY5Su3RGB"
-        },
-        "qtum": {
-          "sym": "qtum",
-          "addr": "QXHFfTBKYXjaaTH1e7Rox8CcdNPGHVhM59",
-          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-        },
-        "rvn": {
-          "sym": "rvn",
-          "addr": "RKxTdfmtxtfLDKZBgx6SvNkBtNu9jRYnLh",
-          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-        },
-        "rdd": {
-          "sym": "rdd",
-          "addr": "RjJ4cn5Bg58D2khGiNRmQW1yWtA6Py9kWa",
-          "wif": "UxbB4W72649zAoWBXKbnTtt437yHn6FPmVjdkrUtoSSXE4gwagjA"
-        },
-        "vtc": {
-          "sym": "vtc",
-          "addr": "Vkg6Ts44mskyD668xZkxFkjqovjXX9yUzZ",
-          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-        },
-        "via": {
-          "sym": "via",
-          "addr": "Vkg6Ts44mskyD668xZkxFkjqovjXX9yUzZ",
-          "wif": "WSPUn7i1qbKMuyds45YiRdpvXTyp8GxfPuxwMPwqiDye3Nc8SkGq"
-        },
-        "x42": {
-          "sym": "x42",
-          "addr": "XN2WQJFDcbcUUpeV4F6ECFpzKwmJQsQ7B7",
-          "wif": "X2i14m9cYCyup3gwGP8HcLCsXCnRTx3a3gTTbDLDg8zVAhUBiAFi"
-        },
-        "zec": {
-          "sym": "zec",
-          "addr": "t1UYsZVJkLPeMjxEtACvSxfWuNmddpWfxzs",
-          "wif": "KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn"
-        }
-      }
-    }
-  ]
+    "bech32": "btg",
+    "seedsDns": [
+      "eu-dnsseed.bitcoingold-official.org",
+      "dnsseed.bitcoingold.org",
+      "dnsseed.btcgpu.org"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 156,
+      "private": 128,
+      "public": 38,
+      "scripthash": 23
+    },
+    "name": "Bitcoin Gold",
+    "unit": "BTG",
+    "testnet": false
+  },
+  "bitcoincash": {
+    "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+    "port": 8333,
+    "portRpc": 8332,
+    "protocol": {
+      "magic": 3908297187
+    },
+    "seedsDns": [
+      "seed.bitcoinabc.org",
+      "seed-abc.bitcoinforks.org",
+      "btccash-seeder.bitcoinunlimited.info",
+      "seed.bitprim.org",
+      "seed.deadalnix.me",
+      "seeder.criptolayer.net"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 145,
+      "private": 128,
+      "public": 0,
+      "scripthash": 5,
+      "bchpre": "bitcoincash"
+    },
+    "name": "BitcoinCash",
+    "per1": 100000000,
+    "unit": "BCH",
+    "testnet": false
+  },
+  "blackcoin": {
+    "hashGenesisBlock": "000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563",
+    "port": 15714,
+    "portRpc": 15715,
+    "protocol": {
+      "magic": 86127984
+    },
+    "seedsDns": [
+      "rat4.blackcoin.co",
+      "seed.blackcoin.co",
+      "archon.darkfox.id.au",
+      "foxy.seeds.darkfox.id.au",
+      "6.syllabear.us.to",
+      "bcseed.syllabear.us.to"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 10,
+      "private": 153,
+      "public": 25,
+      "scripthash": 85
+    },
+    "name": "BlackCoin",
+    "per1": 100000000,
+    "unit": "BLK",
+    "testnet": false
+  },
+  "c0ban": {
+    "hashGenesisBlock": "000000005184ffce04351e687a3965b300ee011d26b2089232cd039273be4a67",
+    "port": 3881,
+    "portRpc": 3882,
+    "protocol": {
+      "magic": 1851928675
+    },
+    "seedsDns": [
+      "jp01.dnsseed.c0ban.com",
+      "kr01.dnsseed.c0ban.com"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 88888,
+      "private": 136,
+      "public": 18,
+      "scripthash": 28
+    },
+    "name": "c0ban",
+    "unit": "RYO",
+    "testnet": false
+  },
+  "citycoin": {
+    "unit": "CITY",
+    "hashGenesisBlock": "00000b0517068e602ed5279c20168cfa1e69884ee4e784909652da34c361bff2",
+    "port": 4333,
+    "portRpc": 4334,
+    "protocol": {
+      "magic": 1129601281
+    },
+    "seedsDns": [
+      "seed.city-chain.org",
+      "seed.city-coin.org",
+      "seed.citychain.foundation",
+      "seed.liberstad.com"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 1926,
+      "private": 237,
+      "public": 28,
+      "scripthash": 88
+    },
+    "name": "CityCoin",
+    "isProofOfStake": true,
+    "testnet": false
+  },
+  "dash": {
+    "hashGenesisBlock": "00000ffd590b1485b3caadc19b22e6379c733355108f107a430458cdf3407ab6",
+    "port": 9999,
+    "portRpc": 9998,
+    "protocol": {
+      "magic": 3177909439
+    },
+    "seedsDns": [
+      "dash.org",
+      "dnsseed.dash.org",
+      "dashdot.io",
+      "dnsseed.dashdot.io",
+      "masternode.io",
+      "dnsseed.masternode.io",
+      "dashpay.io",
+      "dnsseed.dashpay.io"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 5,
+      "private": 204,
+      "public": 76,
+      "scripthash": 16
+    },
+    "name": "Dash",
+    "unit": "DASH",
+    "testnet": false
+  },
+  "decred": {
+    "hashGenesisBlock": "298e5cc3d985bfe7f81dc135f360abe089edd4396b86d2de66b0cef42b21d980",
+    "port": 9108,
+    "portRpc": 9109,
+    "protocol": {
+      "magic": 4177573081
+    },
+    "seedsDns": [
+      "mainnet-seed.decred.mindcry.org",
+      "mainnet-seed.decred.netpurgatory.com",
+      "mainnet.decredseed.org",
+      "mainnet-seed.decred.org"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 50177256,
+        "public": 50178342
+      },
+      "bip44": 42,
+      "private": 8926,
+      "public": 1855,
+      "scripthash": 1818
+    },
+    "name": "Decred",
+    "unit": "DCR",
+    "testnet": false
+  },
+  "denarius": {
+    "hashGenesisBlock": "00000d5dbbda01621cfc16bbc1f9bf3264d641a5dbf0de89fd0182c2c4828fcd",
+    "port": 33339,
+    "portRpc": 32339,
+    "protocol": {
+      "magic": 3035624186
+    },
+    "seedsDns": [
+      "denariusexplorer.org",
+      "denarius.host",
+      "denarius.tech",
+      "denarius.network"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 116,
+      "private": 158,
+      "public": 30,
+      "scripthash": 90
+    },
+    "name": "Denarius",
+    "unit": "DNR",
+    "testnet": false
+  },
+  "digibyte": {
+    "hashGenesisBlock": "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+    "port": 12024,
+    "portRpc": 14022,
+    "protocol": {
+      "magic": 4207130330
+    },
+    "bech32": "dgb",
+    "seedsDns": [
+      "seed.digibyte.io",
+      "digiexplorer.info",
+      "digihash.co"
+    ],
+    "versions": {
+      "bip44": 2147483668,
+      "private": 128,
+      "public": 30,
+      "scripthash": 63,
+      "scripthash2": 5
+    },
+    "name": "DigiByte",
+    "per1": 100000000,
+    "unit": "DGB",
+    "testnet": false
+  },
+  "dogecoin": {
+    "hashGenesisBlock": "1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691",
+    "port": 22556,
+    "protocol": {
+      "magic": 3233857728
+    },
+    "seedsDns": [
+      "seed.multidoge.org",
+      "seed2.multidoge.org"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 49988504,
+        "public": 49990397
+      },
+      "bip44": 3,
+      "private": 158,
+      "public": 30,
+      "scripthash": 22
+    },
+    "name": "Dogecoin",
+    "unit": "DOGE",
+    "testnet": false
+  },
+  "groestlcoin": {
+    "hashGenesisBlock": "00000ac5927c594d49cc0bdb81759d0da8297eb614683d3acb62f0703b639023",
+    "port": 1331,
+    "portRpc": 1441,
+    "protocol": {
+      "magic": 3568615161
+    },
+    "bech32": "grs",
+    "seedsDns": [
+      "dnsseed1.groestlcoin.org",
+      "dnsseed2.groestlcoin.org",
+      "dnsseed3.groestlcoin.org",
+      "dnsseed4.groestlcoin.org"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 17,
+      "private": 128,
+      "public": 36,
+      "scripthash": 5
+    },
+    "name": "Groestlcoin",
+    "per1": 100000000,
+    "unit": "GRS",
+    "messagePrefix": "\u001cGroestlCoin Signed Message:\n",
+    "testnet": false
+  },
+  "litecoin": {
+    "hashGenesisBlock": "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2",
+    "port": 9333,
+    "protocol": {
+      "magic": 3686187259
+    },
+    "bech32": "ltc",
+    "seedsDns": [
+      "dnsseed.litecointools.com",
+      "dnsseed.litecoinpool.org",
+      "dnsseed.ltc.xurious.com",
+      "dnsseed.koin-project.com",
+      "dnsseed.weminemnc.com"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 27106558,
+        "public": 27108450
+      },
+      "bip44": 2,
+      "private": 176,
+      "public": 48,
+      "scripthash": 50,
+      "scripthash2": 5
+    },
+    "name": "Litecoin",
+    "unit": "LTC",
+    "testnet": false
+  },
+  "monacoin": {
+    "hashGenesisBlock": "ff9f1c0116d19de7c9963845e129f9ed1bfc0b376eb54fd7afa42e0d418c8bb6",
+    "port": 9401,
+    "portRpc": 9402,
+    "protocol": {
+      "magic": 3686187259
+    },
+    "bech32": "mona",
+    "seedsDns": [
+      "dnsseed.monacoin.org"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 22,
+      "private": 176,
+      "private2": 178,
+      "public": 50,
+      "scripthash": 55,
+      "scripthash2": 5
+    },
+    "name": "Monacoin",
+    "unit": "MONA",
+    "testnet": false
+  },
+  "namecoin": {
+    "hashGenesisBlock": "000000000062b72c5e2ceb45fbc8587e807c155b0da735e6483dfba2f0a9c770",
+    "versions": {
+      "bip44": 7,
+      "private": 180,
+      "public": 52,
+      "scripthash": 5
+    },
+    "name": "Namecoin",
+    "unit": "NMC",
+    "testnet": false
+  },
+  "nubits": {
+    "hashGenesisBlock": "000003cc2da5a0a289ad0a590c20a8b975219ddc1204efd169e947dd4cbad73f",
+    "port": 7890,
+    "portRpc": 14002,
+    "protocol": {
+      "magic": 3652501241
+    },
+    "seedsDns": [],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 12,
+      "private": 150,
+      "public": 25,
+      "scripthash": 26
+    },
+    "name": "NuBits",
+    "per1": 1000000,
+    "unit": "NBT",
+    "testnet": false
+  },
+  "peercoin": {
+    "hashGenesisBlock": "0000000032fe677166d54963b62a4677d8957e87c508eaa4fd7eb1c880cd27e3",
+    "port": 9901,
+    "portRpc": 9902,
+    "protocol": {
+      "magic": 3857311974
+    },
+    "seedsDns": [
+      "seed.peercoin.net",
+      "seed2.peercoin.net",
+      "seed.peercoin-library.org",
+      "ppcseed.ns.7server.net"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 6,
+      "private": 183,
+      "public": 55,
+      "scripthash": 117
+    },
+    "name": "Peercoin",
+    "per1": 1000000,
+    "unit": "PPC",
+    "messagePrefix": "\u0018Peercoin Signed Message:\n",
+    "testnet": false
+  },
+  "qtum": {
+    "hashGenesisBlock": "000075aef83cf2853580f8ae8ce6f8c3096cfa21d98334d6e3f95e5582ed986c",
+    "port": 3888,
+    "protocol": {
+      "magic": 3550924785
+    },
+    "bech32": "qc",
+    "seedsDns": [
+      "qtum3.dynu.net"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 2301,
+      "private": 128,
+      "public": 58,
+      "scripthash": 50
+    },
+    "name": "Qtum",
+    "unit": "QTUM",
+    "testnet": false
+  },
+  "ravencoin": {
+    "hashGenesisBlock": "0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90",
+    "port": 8767,
+    "protocol": {
+      "magic": 1314275666
+    },
+    "bech32": "rc",
+    "seedsDns": [
+      "seed-raven.bitactivate.com",
+      "seed-raven.ravencoin.com",
+      "seed-raven.ravencoin.org"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 175,
+      "private": 128,
+      "public": 60,
+      "scripthash": 122
+    },
+    "name": "Ravencoin",
+    "unit": "RVN",
+    "testnet": false
+  },
+  "reddcoin": {
+    "hashGenesisBlock": "b868e0d95a3c3c0e0dadc67ee587aaf9dc8acbf99e3b4b3110fad4eb74c1decc",
+    "versions": {
+      "bip44": 4,
+      "private": 189,
+      "public": 61,
+      "scripthash": 5
+    },
+    "name": "ReddCoin",
+    "unit": "RDD",
+    "testnet": false
+  },
+  "vertcoin": {
+    "hashGenesisBlock": "4d96a915f49d40b1e5c2844d1ee2dccb90013a990ccea12c492d22110489f0c4",
+    "port": 5889,
+    "protocol": {
+      "magic": 3669344250
+    },
+    "bech32": "vtc",
+    "seedsDns": [
+      "useast1.vtconline.org",
+      "vtc.gertjaap.org",
+      "seed.vtc.bryangoodson.org",
+      "dnsseed.pknight.ca",
+      "seed.orderofthetaco.org",
+      "seed.alexturek.org",
+      "vertcoin.mbl.cash"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 28,
+      "private": 128,
+      "public": 71,
+      "scripthash": 5
+    },
+    "name": "Vertcoin",
+    "unit": "VTC",
+    "testnet": false
+  },
+  "viacoin": {
+    "hashGenesisBlock": "4e9b54001f9976049830128ec0331515eaabe35a70970d79971da1539a400ba1",
+    "port": 5223,
+    "protocol": {
+      "magic": 3418777615
+    },
+    "seedsDns": [
+      "seed.viacoin.net",
+      "viaseeder.barbatos.fr",
+      "mainnet.viacoin.net"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 14,
+      "private": 199,
+      "public": 71,
+      "scripthash": 33
+    },
+    "name": "Viacoin",
+    "unit": "VIA",
+    "testnet": false
+  },
+  "x42": {
+    "unit": "x42",
+    "hashGenesisBlock": "04ffe583707a96c1c2eb54af33a4b1dc6d9d8e09fea8c9a7b097ba88f0cb64c4",
+    "port": 52342,
+    "portRpc": 52343,
+    "protocol": {
+      "magic": 55731778
+    },
+    "seedsDns": [
+      "mainnet1.x42seed.host",
+      "mainnetnode1.x42seed.host",
+      "tech.x42.cloud",
+      "x42.seed.blockcore.net"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 424242,
+      "private": 203,
+      "public": 75,
+      "scripthash": 125
+    },
+    "name": "x42",
+    "isProofOfStake": true,
+    "testnet": false
+  },
+  "zcash": {
+    "hashGenesisBlock": "00040fe8ec8471911baa1db1266ea15dd06b4a8a5c453883c000b031973dce08",
+    "port": 8233,
+    "portRpc": 8232,
+    "protocol": {
+      "magic": 1680337188
+    },
+    "seedsDns": [
+      "dnsseed.z.cash",
+      "dnsseed.str4d.xyz",
+      "dnsseed.znodes.org"
+    ],
+    "versions": {
+      "bip32": {
+        "private": 76066276,
+        "public": 76067358
+      },
+      "bip44": 133,
+      "private": 128,
+      "public": 7352,
+      "scripthash": 7357
+    },
+    "name": "Zcash",
+    "unit": "ZEC",
+    "testnet": false
+  }
 }
